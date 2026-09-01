@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkly</title>
+  <meta name="description" content="Simple checklists. Better follow-through.">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Arial,sans-serif;background:#f7f7f8;color:#18181b;min-height:100vh;display:flex;align-items:center;justify-content:center}
+    .container{width:min(900px,92%);text-align:center}
+    .logo{font-size:42px;font-weight:800;margin-bottom:10px}
+    .tagline{color:#71717a;margin-bottom:40px;font-size:18px}
+    .links{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+    .card{display:block;text-decoration:none;color:inherit;background:white;border:1px solid #e4e4e7;border-radius:16px;padding:28px 20px;transition:transform .2s ease,box-shadow .2s ease}
+    .card:hover{transform:translateY(-3px);box-shadow:0 10px 30px rgba(0,0,0,.08)}
+    .icon{font-size:30px;margin-bottom:12px}
+    .card h2{font-size:18px;margin-bottom:7px}
+    .card p{color:#71717a;font-size:14px}
+    footer{margin-top:40px;color:#a1a1aa;font-size:13px}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="logo">✓ Checkly</div>
+    <p class="tagline">Simple checklists. Better follow-through.</p>
+    <div class="links">
+      <a class="card" href="/">
+        <div class="icon">✓</div>
+        <h2>My Checklists</h2>
+        <p>Create, organize and complete your checklists.</p>
+      </a>
+      <a class="card" href="/templates">
+        <div class="icon">📋</div>
+        <h2>Templates</h2>
+        <p>Start quickly with ready-made checklists.</p>
+      </a>
+      <a class="card" href="/settings">
+        <div class="icon">⚙️</div>
+        <h2>Settings</h2>
+        <p>Customize your Checkly experience.</p>
+      </a>
+    </div>
+    <footer>Checkly · Simple checklists. Better follow-through.</footer>
+  </main>
+</body>
+</html>
